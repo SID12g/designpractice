@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+h3 {
+    margin: 0px;
+}
+
+h4, h5{
+    margin-top: 0px;
+    margin: 0px;
+}
+
+h6{
+    margin:0px
+}
+
+.explain{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    background:linear-gradient( to right, purple, blue );
+    overflow: hidden;
+}
+
+.explain-left{
+    width: 100%;
+    height: 50px;
+}
+
+.explain-right{
+    width: 500px;
+}
+
+.iphone {
+    width: 300px;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+}
+
+.explain-text{
+    height: 120px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.text-title{
+    font-size: 30px;
+}
+
+.text-content{
+    font-size: 15px;
+}
+
+.content-wrap{
+   
+}
+
+.explain-btn-wrap{
+    
+}
+
+.explain-btn {
+    margin-left: 50px;
+    border: none;
+    background-color: rgb(37, 37, 37);
+    color:white;
+    width:100px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.middle-white {
+    height: 180px;
+}
+
+.middle-btn-wrap{
+    text-align: center;
+}
+
+.middle-title {
+    padding-top: 40px;
+}
+
+.middle-text{
+    text-align: center;
+}
+
+.middle-text p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.middle-btn{
+    border: none;
+    background-color: rgb(37, 37, 37);
+    color:white;
+    width:100px;
+    height: 40px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.ex-val {
+    height: 280px;
+    width: 100%;
+    background-color: rgb(116, 125, 171);
+}
+
+.val-text {
+    text-align: center;
+}
+
+.val-text h6{
+    padding-top: 40px;
+    font-size:15px;
+}
+
+.val-text p{
+    font-size: 20px;
+}
+
+.comp-wrap {
+
+}
+
+.compo{
+   
+}
+
+.comp-icon-wrap{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+    border-radius: 50px;
+
+}
+
+.comp-icon{
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.comp-text{
+    text-align: center;
+}
+
+.cta-wrap{
+    display: flex;
+    justify-content: center;
+}
+
+.comp-text-align{
+    margin: 5px;
+}
+
+.pofo-mo {
+    height: 700px;
+    background: burlywood;
+}
+
+.la-text {
+    text-align: center;
+}
+
+.la-text h5{
+    padding-top: 50px;
+}
+
+.la-text h3{
+   margin-bottom: 30px;
+}
+
+.moeum{
+    margin: auto;
+}
+
+.m1{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.m2{
+    width: 400px;
+}
+
+.m3{
+    width: 400px;
+    background: black;
+    
+}
+
+.opa{
+    
+    width: 800px;
+    height: 534px;
+    background-color: black;
+    position: absolute;
+    opacity: 0.4;
+    margin: auto;
+}

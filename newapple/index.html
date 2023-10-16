@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div class="alert-box" id="alert">
+        <p id="ptag">login plz</p>
+        <button id="close">
+            닫기</button>
+    </div>
+    
+    <button onclick="alert_display('block', 'id')">button1</button>
+   <button onclick="alert_display('block', 'pwd')">button2</button>
+   <script>
+
+   document.getElementById('close').addEventListener('click', function(){
+    document.getElementById('alert').style.display = 'none';
+   });
+
+    function alert_display(hole, hole2){
+        document.getElementById('alert').style.display = hole;
+       document.getElementById('ptag').innerHTML = hole2;
+    }
+    
+
+    
+
+   </script>
+
+</body>
+</html>
